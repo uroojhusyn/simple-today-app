@@ -1,0 +1,23 @@
+name: simple_todo_app
+description: A beginner-friendly Flutter To-Do / Task Manager app.
+publish_to: 'none' # This package is not intended for publishing.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+defaults:
+  # Additional settings can be added here.
+lutter:
+  uses-material-design: true
